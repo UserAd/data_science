@@ -113,7 +113,7 @@ eyeBeam release 3007n stamp 17816|32
 friendly-scanner|31
 eyeBeam release 3004t stamp 16741|21
 
-![uas counts](https://raw.githubusercontent.com/UserAd/data_science/master/VoIP%20fraud/images/uas_distribution.png)
+![uas counts](https://raw.githubusercontent.com/UserAd/data_science/master/VoIPfraud/images/uas_distribution.png "UA distribution")
 
 
 #### Test numbers
@@ -149,7 +149,7 @@ ch|3
 ru|3
 ee|2
 
-![scan numbers](https://raw.githubusercontent.com/UserAd/data_science/master/VoIP%20fraud/images/scan_numbers.png)
+![scan numbers](https://raw.githubusercontent.com/UserAd/data_science/master/VoIPfraud/images/scan_numbers.png "Scan numbers")
 
 Some calls 8.6% (22005) is used for scan local extensions (1-99999).
 
