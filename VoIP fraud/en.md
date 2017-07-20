@@ -49,7 +49,7 @@ def number_clean(number):
   if results == None:
     return number[-12:]
   return results.group(1)[-12:]
-    
+
 ~~~
 
 After that if call costs less than $0.02 per minute it forwards to Asterisk.
@@ -113,7 +113,7 @@ eyeBeam release 3007n stamp 17816|32
 friendly-scanner|31
 eyeBeam release 3004t stamp 16741|21
 
-![uas counts](images/uas_distribution.png)
+![uas counts](https://raw.githubusercontent.com/UserAd/data_science/master/VoIP%20fraud/images/uas_distribution.png)
 
 
 #### Test numbers
@@ -149,7 +149,7 @@ ch|3
 ru|3
 ee|2
 
-![scan numbers](images/scan_numbers.png)
+![scan numbers](https://raw.githubusercontent.com/UserAd/data_science/master/VoIP%20fraud/images/scan_numbers.png)
 
 Some calls 8.6% (22005) is used for scan local extensions (1-99999).
 

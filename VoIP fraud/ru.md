@@ -7,7 +7,7 @@
 
 Основными сценариями фрода является генерация большого количества звонков и отправка их на дорогие направления. Оператор принимающий звонки перечисляет часть от выручки за терминацию хакеру.
 
-Такие направления существуют во многих странах мира. 
+Такие направления существуют во многих странах мира.
 
 Отдельным направлением является случай когда оператор организовывает стык с крупными VoIP терминаторами напрямую, таким образом большая часть стоимости отправляется к нему и нет ограничений по каналам.
 
@@ -47,7 +47,7 @@ def number_clean(number):
   if results == None:
     return number[-12:]
   return results.group(1)[-12:]
-    
+
 ~~~
 
 После чего если звонок имеет стоимость ниже $0.02 за минуту, то он отправляется в asterisk где обрабатывается следующим dialplan:
@@ -110,7 +110,7 @@ eyeBeam release 3007n stamp 17816|32
 friendly-scanner|31
 eyeBeam release 3004t stamp 16741|21
 
-![uas counts](images/uas_distribution.png)
+![uas counts](https://raw.githubusercontent.com/UserAd/data_science/master/VoIP%20fraud/images/uas_distribution.png)
 
 
 #### Номера проверки работоспособности
@@ -145,7 +145,7 @@ ch|3
 ru|3
 ee|2
 
-![scan numbers](images/scan_numbers.png)
+![scan numbers](https://raw.githubusercontent.com/UserAd/data_science/master/VoIP%20fraud/images/scan_numbers.png)
 
 Часть звонков 8.6% (22005) являются попыткой сканирования локальных номеров (1-99999)
 
