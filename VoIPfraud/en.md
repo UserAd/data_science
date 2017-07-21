@@ -105,7 +105,7 @@ ASN|Count|Name
 
 #### Used UA
 
-UA|Количество IP
+UA|Unique IP
 ---|---
 eyeBeam release 3006o stamp 17551|90
 sipcli/v1.8|90
